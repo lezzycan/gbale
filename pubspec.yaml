@@ -13,6 +13,12 @@ dependencies:
   flutter:
     sdk: flutter
 
+  # Allows the Caching of Network Images
+  cached_network_image: ^3.2.2  
+
+  # This library provides hooks that reduces code duplication.
+  flutter_hooks: ^0.18.5+1
+
   # Provider state management library extension with classes to boost mvvm architecture
   stacked: ^3.0.1
   stacked_hooks: ^0.2.2
